@@ -196,22 +196,22 @@ input, select, textarea {
 			padding-bottom: 0.35em;
 		}
 
-			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
-				-moz-transition: max-width 0.2s ease;
-				-webkit-transition: max-width 0.2s ease;
-				-ms-transition: max-width 0.2s ease;
-				transition: max-width 0.2s ease;
-				border-radius: 0.2em;
-				bottom: 0;
-				content: '';
-				height: 0.05em;
-				position: absolute;
-				right: 0;
-				width: 100%;
+		h1.major:after {
+			background-image: -moz-linear-gradient(to right, #007bff, #6699ff);
+			background-image: -webkit-linear-gradient(to right, #007bff, #6699ff);
+			background-image: -ms-linear-gradient(to right, #007bff, #6699ff);
+			background-image: linear-gradient(to right, #007bff, #6699ff);
+			-moz-transition: max-width 0.2s ease;
+			-webkit-transition: max-width 0.2s ease;
+			-ms-transition: max-width 0.2s ease;
+			transition: max-width 0.2s ease;
+			border-radius: 0.2em;
+			bottom: 0;
+			content: '';
+			height: 0.05em;
+			position: absolute;
+			right: 0;
+			width: 100%;
 			}
 
 	h2 {
