@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+		background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
 			content: '\f00c';
 		}
 
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #295024;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2552,7 +2552,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: black;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3022,7 +3022,8 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+
 				content: '';
 				display: block;
 				height: 100%;
@@ -3244,11 +3245,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+			background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: linear-gradient(to right, #0097B2, #004aad);;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+			background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: linear-gradient(to right, #0097B2, #004aad);
 		}
 
 		.wrapper.style2-alt {
@@ -3256,11 +3263,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+		background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+		background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: linear-gradient(to right, #0097B2, #004aad);
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+		background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+		background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: linear-gradient(to right, #0097B2, #004aad);
 		}
 
 		.wrapper.fullscreen {
@@ -3876,10 +3889,10 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: -moz-linear-gradient(to right, #004aad, #0097B2);
-		background-image: -webkit-linear-gradient(to right,  #004aad, #0097B2);
-		background-image: -ms-linear-gradient(to right,  #004aad, #0097B2);
-		background-image: linear-gradient(to right, #004aad, #0097B2);
+		background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+		background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+		background-image: linear-gradient(to right, #0097B2, #004aad);
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
