@@ -3241,7 +3241,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: white;
+			background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
+			background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
+			background-image: linear-gradient(to right, #0097B2, #004aad);
 		}
 
 		.wrapper.style1-alt {
