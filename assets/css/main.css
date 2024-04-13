@@ -187,7 +187,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3em;
+		font-size: 2.75em;
 	}
 
 		h1.major {
@@ -215,7 +215,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.75em;
 	}
 
 	h3 {
@@ -2562,14 +2562,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 0.5em;
+		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 0.5em;
+			border-radius: 0.25em;
 			display: block;
 		}
 
