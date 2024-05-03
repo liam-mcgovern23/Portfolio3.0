@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: black;
+		background: -moz-linear-gradient(to right, #007bff, #6699ff);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2532,7 +2532,7 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				font-size: 1.25em;
+				font-size: 1.1em;
 			}
 
 				.wrapper.style1 .icon.major:before {
@@ -2673,12 +2673,12 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: 1em;
 		padding-left: 0;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 2em;
 			vertical-align: middle;
 		}
 
@@ -3891,7 +3891,6 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
 		background-image: -moz-linear-gradient(to right, #0097B2, #004aad);
 		background-image: -webkit-linear-gradient(to right,  #0097B2, #004aad);
 		background-image: -ms-linear-gradient(to right,  #0097B2, #004aad);
